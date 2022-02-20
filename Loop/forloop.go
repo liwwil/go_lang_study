@@ -16,8 +16,9 @@ func main() {
 	*/
 
 	//While loop in golang be like:
+	var input int
 	for {
-		fmt.Scanf("%s", &input)
-		break
+		fmt.Scanf("%d", &input)
+		fmt.Scanf("Input = ", &input)
 	}
 }
